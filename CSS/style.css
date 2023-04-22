@@ -1,23 +1,21 @@
-
-.content {
+body {
     background-color: #111827;
-    color: #fff;
-    height: 100%;
+    color: #FFF;
+    height: 100%; /* Largura */
 }
-
-section{
-    position: absolute;    
+   
+section {
+    position: absolute;
     left: 50%;
     transform: translate(-50%);
 }
 
-.img{
+img{
     border-radius: 5px;
 }
 
-.content {
+.content{
     margin: 30px 0px;
-    border-radius: 5px;
 }
 
 button {
@@ -32,5 +30,15 @@ button {
 }
 
 .secondary {
-    ba
+    background-color: #cc0000;
+    color: #FFF;
 }
+
+input {
+    border: none;
+    padding: 15px 2px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
