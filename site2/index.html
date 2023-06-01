@@ -5,8 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>viagem dos sonhos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Parte 1 -->
+
+    <header>
+        <nav>
+            <ul><!-- Ul- n Ordenada OL - list orders  -->
+                <li>Pacotes</li>
+                <li>Taxa</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+        <h1>Venha fazer a viagem dos seus sonhos!</h1>
+    </header>
+    <section>
+        <h2>Conheça nossos pacotes</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati placeat minus pariatur nulla corporis earum explicabo nisi voluptates necessitatibus. Eius aliquid libero voluptatem! Quis corporis optio nihil eius excepturi.
+            <br><br>
+            <a href=""></a>
+            <br>
+        </p>
+        <figure>
+            <img src="img/codigo-promocional-pacotes-viagem-sub-md-3.png" alt="Imagem com pacotes promocionais das viagens">
+            <figcaption>Imagem com pacotes promocionais das viagens</figcaption>
+        </figure>
+        <figure>
+            <img src="img/praia-do-futuro.webp" alt="Imagem da praia-do-futuro">
+            <figcaption>Imagem com pacotes promocionais das viagens</figcaption>
+        </figure>
+        <figure>
+            <img src="img/praia-do-futuro2.jpg" alt="Imagem da praia-do-futuro2">
+            <figcaption>Imagem com pacotes promocionais das viagens</figcaption>
+        </figure>
+    </section>
+    <video controls>
+        <source src="video/Candidato - Gabriel Dantas Lopes.mp4" type="video/mp4">
+        <source src="video/Candidato - Gabriel Dantas Lopes.mp4" type="video/webm">
+        Seu computador não suporta o formato de vídeo. <a href="video/Candidato - Gabriel Dantas Lopes.mp4">Clique aqui para baixar.</a>
+    </video>
+
+    <section>
+        <h2>Orçamento</h2>
+        <form method="get" action="">
+
+            <fieldset>
+                <legend>Dados da viagem</legend>
+                <label>Nome</label> <br>
+                <input type="text" name="nome"> <br><br>
+
+                <label>Email</label> <br>
+                <input type="email" required name="Email"><br><br>
+
+                <label>Data de ida</label> <br>
+                <input type="date" name="dataIda"><br><br>
+
+                <label>Data de volta</label><br>
+                <input type="date" name="dataVolta"><br><br>
+
+                <label>Quantidade de pessoas</label><br>
+                <input type="number" name="qtdPessoas" id=""><br><br>
+                
+            </fieldset>
+            
+            <fieldset>
+                <legend>Quais serviços deseja contratar?</legend>
+                <label>
+                    <br><input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+                </label>
+                <label>
+                    <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+                </label>
+                <label>
+                    <br><input type="checkbox" name="veículos" value="Veículos">Reserva de Veículos
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartao de crédito">Cartão de Crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Pix">pix
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha o prazo para pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista">À vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x" selected>10x com juros</option>
+                </select>
+            </fieldset>
+
+            <label>Comentário</label> <br>
+            <textarea rows="5" name="Comentario"></textarea> <br><br>
+
+            <button>Salvar</button>
+
+        </form>
+    </section>
+
+    <!-- Parte 2 -->
+
     <!-- <section>
         <title>TAXAS E SERVIÇOS</title>
         <p>Veja nossas taxas para serviços</p>
@@ -59,33 +167,8 @@
     <footer>
         Desenvolvido por Gabriel Dantas
     </footer> -->
-    
-    <!-- Parte 2 -->
 
-    <header>
-        <h1>Venha fazer a viagem dos seus sonhos!</h1>
-    </header>
-    <section>
-        <h2>Conheça nossos pacotes</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed obcaecati placeat minus pariatur nulla corporis earum explicabo nisi voluptates necessitatibus. Eius aliquid libero voluptatem! Quis corporis optio nihil eius excepturi.
-            <br><br>
-            <a href=""></a>
-            <br>
-        </p>
-        <figure>
-            <img src="img/codigo-promocional-pacotes-viagem-sub-md-3.png" alt="Imagem com pacotes promocionais das viagens">
-            <figcaption>Imagem com pacotes promocionais das viagens</figcaption>
-        </figure>
-        <figure>
-            <img src="img/praia-do-futuro.webp" alt="Imagem da praia-do-futuro">
-            <figcaption>Imagem com pacotes promocionais das viagens</figcaption>
-        </figure>
-        <figure>
-            <img src="img/praia-do-futuro2.jpg" alt="Imagem da praia-do-futuro2">
-            <figcaption>Imagem com pacotes promocionais das viagens</figcaption>
-        </figure>
-    </section>
+    <!-- Parte 3 -->
     <footer>
         <p>Desenvolvido por Gabriel Dantas Lopes</p>
     </footer>
